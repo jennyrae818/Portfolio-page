@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(164, 196, 226); 
+}
+
+.header {
+    width: auto;
+    padding-top: 40px;
+    font-family: 'Corinthia', cursive;
+    background-color: #067c76;
+    color: #ffffff;
+}
+
+.header h1 {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 58px;
+}
+
+.header nav {
+    padding-top: 25px;
+    margin-right: 30px;
+    float: right;
+    font-family: 'Corinthia', cursive;
+    font-size: 40px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.main-photo {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/IMG_6706.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.main-photo:hover {
+    opacity: 1.0;
+}
+
+.back-to-top {
+    margin-top: 10px;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    padding-top: 8%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Corinthia', cursive;
+}
+
+/* 
+.images >img {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.contact-me {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+/* this controls the paragraphs */
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* this controls the links at the top of the page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
