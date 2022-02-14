@@ -1,9 +1,17 @@
 :root {
+    --header: #067c76;
+    --backgroundblue: rgb(164, 196, 226);
+    --white: #ffff;
+    --black: black; 
+    --gruppo: 'gruppo';
+    --licorice: 'licorice';
+    
+
 
 }
 
 body {
-    background-color: rgb(164, 196, 226); 
+    background-color: var(--backgroundblue); 
 }
 
 .header {
@@ -11,15 +19,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
-    font-family: 'gruppo', cursive;
-    background-color: #067c76;
-    color: #ffffff;
+    font-family: var(--gruppo);
+    background-color: var(--header);
+    color: var(--white);
 }
 
 .header h1 {
     margin-left: 20px;
     display: inline-block;
-    font-family:"licorice", "gruppo";
+    font-family: var(--licorice);
     font-size: 58px;
     text-shadow: 2px 2px 5px black;
 }
@@ -28,7 +36,7 @@ body {
     padding-top: 45px;
     margin-right: 30px;
     float: right;
-    font-family: 'gruppo', cursive;
+    font-family: var(--gruppo);
     font-size: 30px;
 }
 
@@ -41,22 +49,19 @@ body {
 p {
     font-size: 20px;
     text-align: center;
-    font-family: 'gruppo';
+    font-family: var(--gruppo);
     font-weight: bold;
     line-height: 120%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* this controls the links at the top of the page */
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
-ul li {
-    font-family:'gruppo';
-}
 
 .main-photo {
     height: 500px;
@@ -73,16 +78,17 @@ ul li {
 }
 
 .back-to-top {
-    margin-top: 10px;
+    padding: 10px;
     text-align:center;
     font-family: 'gruppo';
+    font-size: 16px;
 }
 
 h2 {
     padding-top: 6%;
     text-align: center;
     font-size: 40px;
-    font-family: 'gruppo', cursive;
+    font-family: var(--gruppo);
 }
 
 /* 
@@ -122,9 +128,21 @@ img:hover {
 }
 
 .contact-me {
-    text-align: center;
+    text-align: absolute;
     list-style-position: inside;
+    font-size: 20px;
+    line-height: 120%;
+    width: auto;
+    font-family: var(--gruppo);
+    background-color: var(--header);
 }
+
+.contact {
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
 
 footer {
     font-family: 'gruppo';
