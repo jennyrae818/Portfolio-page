@@ -13,9 +13,15 @@
 
 My Portfolio Page is here for you!
 <br>
-I wanted to make something easy for the user to navigate where they can get to know me a little better. 
 <br>
-You can read a bit more about me, navigate through my recent project links, visit my professional LinkedIn, read my resume, or contact me directly. 
+I wanted to make a page that is easy for the user to navigate and where they can quickly get to know me a little better. 
+<br>
+<br>
+You can read a bit more about me, navigate through my recent project links, visit my professional LinkedIn profile, read my resume, or contact me directly. 
+<br>
+<br>
+This has been a work in progress since the start of my University of Washington Full Stack Web Development class in December 2021.
+<br>
 <br>
 
 
