@@ -8,6 +8,7 @@
 }
 
 /*
+ALTERNATIVE COLOR SCHEME
     --header: #067c76;
     --backgroundblue: rgb(164, 196, 226);
     --white: #ffff;
@@ -15,16 +16,35 @@
     --gruppo: 'gruppo';
     --licorice: 'licorice';
 */
+
 body {
     background-color: var(--white); 
+    margin: 0;
 }
+
+
+
+
+/* ALL LINKS */
+
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--highlightblue);
+}
+
+
+
+
+/* HEADER */
 
 .header {
     width: auto;
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
-    font-family: var(--gruppo);
     background-color: var(--header);
     color: var(--white);
 }
@@ -50,9 +70,21 @@ body {
     margin-left: 25px;
 }
 
+.nav a{
+    color: var(--white);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: var(--highlightblue);
+}
+
+
+
+
 /* MAIN PARAGRAPH */
 p {
     font-size: 20px;
+    color: var(--black);
     text-align: center;
     font-family: var(--gruppo);
     font-weight: bold;
@@ -61,19 +93,43 @@ p {
     padding-right: 50px;
 }
 
-/* this controls the links at the top of the page */
-a {
-    color: var(--white);
-    text-decoration: none;
+p a:hover{
+    color: var(--highlightblue);
 }
 
-.about-me a {
+
+
+
+
+
+/*BACK TO TOP LINKS */
+
+.back-to-top {
+    padding: 10px;
+    text-align:center;
+    font-family: var(--gruppo);
+    font-size: 16px;
+}
+
+.back-to-top a{
+    color: var(--black);
+}
+
+.back-to-top a:hover{
+    color: var(--highlightblue);
+}
+
+
+
+/* ABOUT ME SECTION */
+
+.about-me a{
     color: var(--header)
 }
 
-a:hover {
-    color: var(--highlightblue)
-}
+
+
+/* MAIN PHOTO */
 
 .main-photo {
     height: 500px;
@@ -85,16 +141,15 @@ a:hover {
     opacity: 1.0;
 }
 
-.main-photo:hover {
-    /*opacity: .5;*/
-}
 
-.back-to-top {
-    padding: 10px;
-    text-align:center;
-    font-family: var(--gruppo);
-    font-size: 16px;
+/*MAIN PHOTO HOVER - turned off for now */
+/*
+.main-photo:hover {
+    opacity: .5;
 }
+*/
+
+/* WELCOME / h2 HEADER */
 
 h2 {
     padding-top: 6%;
@@ -117,6 +172,8 @@ h2 {
 }
 */
 
+
+
 /* WORK IMAGES */
 
 .images-container {
@@ -127,20 +184,34 @@ h2 {
 }
 
 .images-container img {  
-    margin: 15px;
+    padding: 15px;
+    margin: 20px;
     width: 200px;
     height: 270px;
+    border-radius: 10px;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
 }
 
 img:hover {
     opacity: 0.5;
 }
+
+/*
+<p class="gitlink">TEXT</p>
+<p class="gitlink"><a href="https://github.com/jennyrae818/weatherapp" target="_blank">A Weather SearchBLUE</a></p>
+.gitlink {
+    color: red;
+}
+.gitlink a{
+    color: blue;
+}*/
 
 
 
@@ -162,10 +233,13 @@ img:hover {
     padding-top: 10px;
 }
 
+
+
 /* FOOTER */
 
 footer {
     font-family: var(--gruppo);
     text-align: center;
+    margin: 10px;
 }
 
